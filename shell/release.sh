@@ -67,10 +67,10 @@ then
     let step+=1
     isNewProject=1
     echo "${step}、项目不存在，尝试拉取代码"
-    echo "git clone http://gitlab.bagusit.com:81/vikey/${projectName}.git ${projectPath}"
+    echo "git clone http://gitlab.xxx.com:81/vikey/${projectName}.git ${projectPath}"
     if (( ${isRealExcute} == 1))
     then
-        git clone http://gitlab.bagusit.com:81/vikey/${projectName}.git ${projectPath}
+        git clone http://gitlab.xxx.com:81/vikey/${projectName}.git ${projectPath}
     fi
     sleep ${waitSeconds}s 
 fi
